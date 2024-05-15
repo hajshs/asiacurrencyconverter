@@ -10,9 +10,6 @@
     display: flex;
     overflow: hidden;
 }
-a {
-    color: black;
-}
 #content {
     height: 80vh;
     width: 60vw;
@@ -29,6 +26,9 @@ a {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+a {
+    color: black;
 }
 #title {
     width: 100%;
@@ -121,7 +121,6 @@ input {
     position: relative;
     overflow: hidden;
 }
-
 .slide {
     display: none;
 }
