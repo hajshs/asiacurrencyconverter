@@ -59,8 +59,8 @@ a {
 #total {
     margin-top: 20px;
     display: flex;
-    width: 100%;
     justify-content: center;
+    width: 100%;
 }
 .cnvrtr {
     height: 70px;
