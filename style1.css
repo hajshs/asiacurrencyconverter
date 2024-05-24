@@ -10,6 +10,9 @@
     display: flex;
     overflow: hidden;
 }
+a {
+    color: black;
+}
 #content {
     height: 80vh;
     width: 60vw;
@@ -26,9 +29,6 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-}
-a {
-    color: black;
 }
 #title {
     width: 100%;
@@ -47,7 +47,7 @@ a {
     font-size: 28px;
 }
 #converters {
-    height: 10vh;
+    height: 50vh;
     width: 70%;
     position: relative;
     display: flex;
@@ -55,6 +55,12 @@ a {
     flex-wrap: wrap;
     margin-top: 10%;
     margin-bottom: 6%;
+}
+#total {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 .cnvrtr {
     height: 70px;
@@ -70,6 +76,12 @@ a {
     font-size: 14px;
     margin-left: 10px;
 }
+.totaltxt {
+    position: absolute;
+    top: 64%;
+    font-size: 14px;
+    margin-left: 10px;
+}
 input {
     border: none;
 }
@@ -80,6 +92,18 @@ input {
     border-radius: 30px 0px 0px 30px;
     text-align: end;
     font-size: 24px;
+}
+#rightinput {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 24px;
+}
+#totalinput {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 24px
 }
 .selections {
     height: 140px;
@@ -121,6 +145,7 @@ input {
     position: relative;
     overflow: hidden;
 }
+
 .slide {
     display: none;
 }
@@ -142,4 +167,3 @@ input {
       opacity: 1;
     }
 }
-
